@@ -37,7 +37,7 @@ SELECT *
 FROM zainteresowania;
 
 DELETE FROM zainteresowania
-WHERE id IS NULL;
+WHERE id IS NULL OR nazwa IS NULL OR opis IS NULL or data_realizacji IS NULL;
 
 SELECT *
 FROM zainteresowania;
