@@ -1,9 +1,14 @@
 USE pracownicy;
 
-ALTER TABLE pracownicy
-RENAME COLUMN nr TO id;
+DROP TABLE pracownicy;
 
-TRUNCATE TABLE pracownicy;
+CREATE TABLE pracownicy (
+id INT auto_increment PRIMARY KEY,
+imię VARCHAR(50),
+nazwisko VARCHAR(50),
+wiek INT NOT NULL,
+kurs VARCHAR(50),
+);
 
 INSERT INTO pracownicy (imię, nazwisko, wiek, kurs)
 VALUES
