@@ -22,7 +22,7 @@ WHERE id BETWEEN 1 AND 7;
 
 SELECT *
 FROM pracownicy
-WHERE id IS NULL or imię IS NULL or nazwisko IS NULL or wiek IS NULL or kurs IS NULL;
+WHERE id IS NULL or imię IS NULL or nazwisko IS NULL or wiek IS NULL or kurs IS NULL or id = "" or imię = "" or nazwisko = "" or wiek = "" or kurs = "";
 
 SELECT *
 FROM pracownicy
