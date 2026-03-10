@@ -22,8 +22,13 @@ VALUES
 ("Radosław", "ZIELIŃSKI", 38, "Java"),
 ("", "WOŹNIAK", 26, "Java"),
 ("Robert", "SZYMAŃSKI", 34, "Java"),
-("Radosław", "DĄBROWSKI", 35, ""),
-("Robert", "KOZŁOWSKI", "UX"),
+("Radosław", "DĄBROWSKI", 35, "");
+
+INSERT INTO pracownicy (imię, nazwisko, kurs)
+VALUES ("Robert", "KOZŁOWSKI", "UX");
+
+INSERT INTO pracownicy (imię, nazwisko, wiek, kurs)
+VALUES
 ("Joanna", "MAZUR", 26, "UX"),
 ("Radosław", "JANKOWSKI", 27, "UX"),
 ("Patryk", "LEWANDOWSKI", 28, "Tester"),
