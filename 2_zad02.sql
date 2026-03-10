@@ -4,10 +4,10 @@ DROP TABLE pracownicy;
 
 CREATE TABLE pracownicy (
 id INT auto_increment PRIMARY KEY,
-imię VARCHAR(50),
-nazwisko VARCHAR(50),
-wiek INT NOT NULL,
-kurs VARCHAR(50),
+imię TEXT,
+nazwisko TEXT,
+wiek INT,
+kurs TEXT
 );
 
 INSERT INTO pracownicy (imię, nazwisko, wiek, kurs)
